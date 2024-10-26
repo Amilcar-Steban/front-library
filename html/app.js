@@ -1,6 +1,6 @@
 // app.js
 
-const API_URL = 'http://localhost:8081/api/books';
+const API_URL = '/api/books';  // Cambia a ruta relativa
 
 async function fetchBooks() {
     try {
